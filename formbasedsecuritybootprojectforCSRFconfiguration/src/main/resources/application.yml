@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: formbasedsecuritybootprojectforCSRFconfiguration
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://mysql-e3b2805-manubolukishore6-09bf.c.aivencloud.com:12327/defaultdb
+    username: avnadmin
+    password: your_password_here
+
+  jpa:
+    show-sql: true
+    generate-ddl: false
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
